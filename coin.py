@@ -28,7 +28,7 @@ for cypher in outer_string.split('.'):
 print('')
 
 print('---- Cyper 3')
-print(custom_cyphers.clarity(custom_cyphers.matrix(inner_string, 7, 5)))
+print(custom_cyphers.clarity_matrix(inner_string, 7, 5))
 print('')
 
 print('---- Cyper 4')
